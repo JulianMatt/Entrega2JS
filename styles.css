@@ -1,78 +1,95 @@
-/* General */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1.5rem 0;
+  background-color: #1f2937;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
 }
 
 header p {
-    margin: 0.5rem 0 0;
+  margin-top: 10px;
+  font-size: 1rem;
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
-    margin: 2rem;
-    gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
 }
 
 section {
-    width: 45%;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%;
 }
 
 h2 {
-    margin-top: 0;
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1f2937;
 }
 
-#products-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+#lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-.product {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 5px;
-    text-align: center;
-    width: 150px;
-    background-color: #f9f9f9;
+.producto {
+  background-color: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  width: 150px;
+}
+
+.producto h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.producto p {
+  font-size: 0.9rem;
+  margin: 10px 0;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    cursor: pointer;
-    border-radius: 5px;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #2563eb;
 }
 
-#cart-items {
-    list-style: none;
-    padding: 0;
+#items-carrito {
+  list-style: none;
+  padding: 0;
 }
 
-#cart-items li {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
+#items-carrito li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
 }
